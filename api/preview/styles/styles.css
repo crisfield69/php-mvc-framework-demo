@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.exposant {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
+    border-radius: 5px;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exposant h2 {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.exposant figure {
+    width: 20%;
+    margin: 30px;
+    overflow: hidden;
+    position: relative;
+}    
+
+.exposant figure:before {
+    content: '';
+    float: left;
+    padding-top: 70%;
+}
+
+.exposant figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    position: absolute;
+}

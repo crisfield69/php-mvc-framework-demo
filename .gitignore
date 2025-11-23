@@ -1,0 +1,48 @@
+# ===============================
+#     SYSTEME & ENVIRONNEMENT
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+#     CONFIG PRIVÉES
+# ===============================
+config.php
+cron/config.php
+
+# ===============================
+#     UPLOADS & CONTENU UTILISATEUR
+# ===============================
+uploads/*
+!uploads/.gitkeep
+
+# ===============================
+#     IMAGES RÉELLES (pas sur GitHub)
+# ===============================
+public/images/*
+!public/images/.gitkeep
+
+# ===============================
+#     POLICES PROPRIETAIRES
+# ===============================
+public/fonts/formata/
+public/fonts/line-awesome/
+
+# ===============================
+#     BIBLIOTHÈQUES TIERCES (non suivies)
+# ===============================
+util/dompdf/
+vendor/
+
+# ===============================
+#     FICHIERS LOGS / TEMP
+# ===============================
+*.log
+*.cache
+*.tmp
+
+# ===============================
+#     SCRIPTS CRON SENSIBLES (optionnel)
+# ===============================
+cron/debug.php
+cron/debug.log

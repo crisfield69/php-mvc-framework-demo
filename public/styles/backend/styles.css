@@ -1,0 +1,60 @@
+.debug {
+    z-index: 2;
+    padding: 20px 30px;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-weight: 300;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.layout-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.layout-navigation li {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.layout-navigation li a {
+    font-size: 16px;
+    color: #000;
+}
+
+.layout-navigation {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    font-size: inherit;
+    color: #000;
+}
