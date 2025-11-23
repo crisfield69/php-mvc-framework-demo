@@ -69,8 +69,6 @@ php-mvc-framework-demo/
 ├── index.php
 └── README.md
 
-markdown
-Copier le code
 
 Points clés :
 
@@ -98,8 +96,6 @@ Exemple :
 /exposants → Frontend/Controller/ExposantsController::index()
 /admin/pages/edit/12 → Backend/Controller/PagesController::edit(12)
 
-yaml
-Copier le code
 
 Le système gère également les 404 personnalisées via `NotFoundController`.
 
