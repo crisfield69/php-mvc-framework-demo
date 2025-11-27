@@ -26,46 +26,48 @@ Ce dépôt propose une **version nettoyée** du projet original (développé pou
 
 Architecture générale
 
+```
 php-mvc-framework-demo/
 ├── Backend/
-│ ├── Controller/
-│ ├── Model/
-│ └── View/
+│   ├── Controller/
+│   ├── Model/
+│   └── View/
 │
 ├── Frontend/
-│ ├── Controller/
-│ ├── Model/
-│ ├── View/
-│ └── HtmlWrapper.php
+│   ├── Controller/
+│   ├── Model/
+│   ├── View/
+│   └── HtmlWrapper.php
 │
 ├── Core/
-│ ├── Autoloader.php
-│ ├── Controller/
-│ ├── Routing/
-│ ├── Form/
-│ ├── View/
-│ ├── Database.php
-│ ├── HttpRequest.php
-│ └── Util.php
+│   ├── Autoloader.php
+│   ├── Controller/
+│   ├── Routing/
+│   ├── Form/
+│   ├── View/
+│   ├── Database.php
+│   ├── HttpRequest.php
+│   └── Util.php
 │
 ├── public/
-│ ├── styles/
-│ ├── scripts/
-│ └── images/ (placeholders)
+│   ├── styles/
+│   ├── scripts/
+│   └── images/ (placeholders)
 │
 ├── uploads/ (vide, structure conservée)
 │
 ├── cron/
-│ ├── createTables
-│ ├── imports
-│ └── images processing
+│   ├── createTables
+│   ├── imports
+│   └── images processing
 │
 ├── config/
-│ └── config.example.php
+│   └── config.example.php
 │
 ├── index.php
 └── README.md
 
+```
 
 Points clés :
 
