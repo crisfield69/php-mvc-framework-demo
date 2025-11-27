@@ -151,6 +151,6 @@ Ajout d’un système de cache
 Migration progressive vers un moteur de templates (Twig)
 
 
-# Auteur
+## Auteur
 Christophe Grandchamp
 Développeur front-end, webdesigner, architecte PHP MVC.
