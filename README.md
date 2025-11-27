@@ -10,7 +10,7 @@ Ce dépôt propose une **version nettoyée** du projet original (développé pou
 - pas de configuration de production  
 - uniquement le code source de l’architecture
 
-## 🚀 Le projet
+## Le projet
 
 - Un exemple complet de développement POO sans framework externe.  
 - Une architecture MVC avec un découpage clair : Front / Back / Core.  
@@ -24,7 +24,7 @@ Ce dépôt propose une **version nettoyée** du projet original (développé pou
   - des gestionnaires JS maison pour le front et le back
 
 
-Architecture générale
+## Architecture générale
 
 ```
 php-mvc-framework-demo/
@@ -69,7 +69,7 @@ php-mvc-framework-demo/
 
 ```
 
-Points clés :
+## Points clés
 
 - **Back-office complet** (CRUD, galeries, pages, conférences, catégories…)  
 - **Front multi-vues** avec templates structurés  
@@ -80,8 +80,7 @@ Points clés :
 - **Cron jobs** pour automatiser les imports et traitements  
 - **Séparation stricte “Core / Backend / Frontend”**
 
-
-Routing
+### Routing
 
 Le Router analyse l’URL et appelle automatiquement :
 
@@ -90,17 +89,7 @@ Le Router analyse l’URL et appelle automatiquement :
 - avec les **paramètres dynamiques**.
 
 
-Exemple :
-
-/exposants → Frontend/Controller/ExposantsController::index()
-/admin/pages/edit/12 → Backend/Controller/PagesController::edit(12)
-
-
-Le système gère également les 404 personnalisées via `NotFoundController`.
-
-
-
-🛠 Système de formulaires
+### Système de formulaires
 
 Le répertoire `Core/Form/` contient un **mini-framework de formulaires** :
 
@@ -117,7 +106,7 @@ Chaque formulaire est construit en PHP orienté objet, puis rendu automatiquemen
 Idéal pour centraliser la logique et éviter le code dupliqué en HTML.
 
 
-🗄 Base de données & Modèles
+### Base de données & Modèles
 
 Le fichier `Core/Model.php` contient la classe abstraite parent des modèles.  
 Chaque modèle :
@@ -132,7 +121,7 @@ Les modèles se trouvent dans :
 - `Frontend/Model/` pour le front-office  
 
 
-📷 Gestion des images
+### Gestion des images
 
 Le projet contient :
 
@@ -144,7 +133,7 @@ Le projet contient :
 Les images réelles ont été supprimées, seules des structures vides persistent dans le dépôt.
 
 
-🕒 Cron et automatisation
+### Cron et automatisation
 
 Le répertoire `cron/` contient :
 
@@ -154,13 +143,13 @@ Le répertoire `cron/` contient :
 - scripts de redimensionnement d’images
 
 
-
-📌 Roadmap d’amélioration
+# Roadmap d’amélioration
 
 Migration éventuelle vers Composer
 Ajout d’un système de cache
 Migration progressive vers un moteur de templates (Twig)
 
-👤 Auteur
+
+# Auteur
 Christophe Grandchamp
 Développeur front-end, webdesigner, architecte PHP MVC.
