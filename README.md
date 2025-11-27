@@ -10,13 +10,11 @@ Ce dépôt propose une **version nettoyée** du projet original (développé pou
 - pas de configuration de production  
 - uniquement le code source de l’architecture
 
----
+## 🚀 Le projet
 
-## 🚀 Objectifs du projet
-
-- Montrer un exemple complet de développement **PHP orienté objet** sans framework externe.  
-- Illustrer une **architecture MVC propre** avec un découpage clair : Front / Back / Core.  
-- Démontrer la capacité à construire :
+- Un exemple complet de développement POO sans framework externe.  
+- Une architecture MVC avec un découpage clair : Front / Back / Core.  
+- Détail :
   - un back-office complet (CRUD, uploads, galerie photo, gestion de contenus)
   - un site front avec templates réutilisables
   - un système de routing maison
@@ -25,9 +23,8 @@ Ce dépôt propose une **version nettoyée** du projet original (développé pou
   - un système de cron pour automatiser des imports de données
   - des gestionnaires JS maison pour le front et le back
 
----
 
-## 🧱 Architecture générale
+Architecture générale
 
 php-mvc-framework-demo/
 ├── Backend/
@@ -90,6 +87,7 @@ Le Router analyse l’URL et appelle automatiquement :
 - la **méthode/action**,  
 - avec les **paramètres dynamiques**.
 
+
 Exemple :
 
 /exposants → Frontend/Controller/ExposantsController::index()
@@ -117,7 +115,6 @@ Chaque formulaire est construit en PHP orienté objet, puis rendu automatiquemen
 Idéal pour centraliser la logique et éviter le code dupliqué en HTML.
 
 
-
 🗄 Base de données & Modèles
 
 Le fichier `Core/Model.php` contient la classe abstraite parent des modèles.  
@@ -133,7 +130,6 @@ Les modèles se trouvent dans :
 - `Frontend/Model/` pour le front-office  
 
 
-
 📷 Gestion des images
 
 Le projet contient :
@@ -145,7 +141,6 @@ Le projet contient :
 
 Les images réelles ont été supprimées, seules des structures vides persistent dans le dépôt.
 
----
 
 🕒 Cron et automatisation
 
